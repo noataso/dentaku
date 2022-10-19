@@ -1,0 +1,70 @@
+table{
+    margin:20px;
+    padding:20px;
+    border:1px solid #000;
+    border-left:1px solid #fff;
+    border-top:1px solid #fff;
+    border-radius:10px;
+    box-shadow:10px 10px 50px #000;
+    background: rgba(0,0,0,0.1);
+}
+
+
+.display{
+    width:300px;
+    background: #fff;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:right;
+}
+
+
+input{
+    width:70px;
+    height:70px;
+    border-radius:5px;
+    font-size: 22px;
+    background: silver;
+    color:#000;
+    margin-left:1.5px;
+    box-shadow:1px 1px 2px #000;
+}
+
+.operator{
+    background: lightblue;
+}
+.equal{
+    background: lightgreen;
+}
+
+input:hover{
+    background: #000;
+    color:#fff;
+}
+
+.display:hover{
+    background: #fff;
+    color:#000;
+}
+
+.operator:hover{
+    background: blue;
+    color:#fff;
+}
+
+.equal:hover{
+    background: green;
+    color:#fff;
+}
+
+input:active{
+    background: silver;
+}
+
+.operator:active{
+    background: lightblue;
+}
+
+.equal:active{
+    background: lightgreen;
+}
